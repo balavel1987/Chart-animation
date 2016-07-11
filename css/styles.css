@@ -16,6 +16,7 @@
 }
 #myChart {
     background: black;
+		margin-left:50px;
 }
 .values {
     position:absolute;
@@ -108,5 +109,6 @@ video {
     position:absolute;
     top:280px;
 	background:#000;
+	margin-left:50px;
 }
 h1{text-align:center;}
