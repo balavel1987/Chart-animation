@@ -1,3 +1,4 @@
+//HTML 5 Canvas to Video
 var canvas = document.getElementById("myChart");
 var ctx = canvas.getContext('2d');
 var encoder;
