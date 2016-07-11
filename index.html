@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Canvas Charts</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/chartjs.min.js"></script>
+    <script src="js/lib/whammy.js"></script>
+</head>
+<body>
+<h1>HTML5 Canvas Charts</h1>
+<div class="container">
+    <div class="inner-content">
+        <canvas id="myChart" width="600" height="450"></canvas>
+    </div>
+    <div class="values">
+        <div class="val val1"><b>Apple:</b> 
+            <input class="input input1" type="text" value="170" autocomplete="off"/>
+        </div>
+        <div class="val val2"><b>Orange:</b> 
+            <input class="input input2" type="text" value="30" autocomplete="off"/>
+        </div>
+        <div class="val val3"><b>Banana:</b> 
+            <input class="input input3" type="text" value="25" autocomplete="off"/>
+        </div>
+        <div class="val val4"><b>Grape:</b> 
+            <input class="input input4" type="text" value="30" autocomplete="off"/>
+        </div>
+        <div class="val val5"><b>Kiwi:</b> 
+            <input class="input input5" type="text" value="40" autocomplete="off"/>
+        </div>
+        <div class="val val6"><b>Mango:</b> 
+            <input class="input input6" type="text" value="50" autocomplete="off"/>
+        </div>
+        <div class="type"><b>Choose the Chart Type</b> 
+            <select class="select">
+                <option value="bar">Bar Chart</option>
+                <option value="line">Line Chart</option>
+                <option value="horizontalBar">Horizontal Bar Chart</option>
+                <option value="doughnut">Doughnut Chart</option>
+            </select>
+        </div>
+        <div>
+            <video id="video" src="" autoplay></video>
+            <div id="draw">Draw</div>
+            <div id="save">Video</div>
+            <div id="download-btn"><a id="download" download="chart-animation.webm">Download</a></div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/app.js"></script>
+</html>

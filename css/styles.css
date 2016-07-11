@@ -1,0 +1,110 @@
+.container {
+     position:relative;
+     width:700px;
+     height:600px;
+     margin:0 auto;
+     left:0px;
+     right:0px;
+     bottom:0px;
+     background:white;
+}
+.inner-content {
+    width:600px;
+    height:200px;
+    position:absolute;
+    border: 0px solid red;
+}
+#myChart {
+    background: black;
+}
+.values {
+    position:absolute;
+    width:400px;
+    border:0px solid red;
+    top:480px;
+    height:300px;   
+}
+.input {
+    position:absolute;
+    width:100px;
+    height:30px;
+    left:65px;
+}
+.val,.type {
+    position:absolute;
+    width:400px;
+    height:330px;
+    left:100px;
+    line-height:2.5;
+}
+.type {
+    left:290px;
+}
+.select {
+    position:absolute;
+    left:160px;
+    top:10px;
+}
+.val1{
+    top:10px;
+}
+.val2{
+    top:50px;
+}
+.val3{
+    top:90px;
+}
+.val4{
+    top:130px;
+}
+.val5{
+    top:170px;
+}
+.val6{
+    top:210px;
+}
+#save {
+    position:absolute;
+    top:50px;
+    left:400px;
+    font-weight:bold;
+    background:#ccc;
+    width:60px;
+    height:25px;
+    line-height:1.6;
+    text-align:center;
+    color:#000;
+    cursor:pointer;
+}
+#draw {
+    position:absolute;
+    top:50px;
+    left:320px;
+    font-weight:bold;
+    background:#ccc;
+    width:60px;
+    height:25px;
+    line-height:1.6;
+    text-align:center;
+    color:#000;cursor:pointer;
+}
+#download-btn {
+    position:absolute;
+    top:50px;
+    left:480px;
+    font-weight:bold;
+    background:#ccc;
+    width:80px;
+    height:25px;
+    line-height:1.6;
+    text-align:center;
+    color:#000;cursor:pointer;
+}
+#download {
+    text-decoration: none;
+    color: #000;
+}
+video {
+    position:absolute;
+    top:280px;
+}
